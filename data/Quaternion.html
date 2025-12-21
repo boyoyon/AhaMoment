@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <meta charset="utf-8" />
+        <title>クォータニオン(四元数)</title>
+        <style type="text/css">
+            p
+            {
+                padding-left: 2em;
+            }
+           .margin-abstract {
+               margin-left: 60px; /* 左マージンを広くする */
+               margin-right: 60px; /* 右マージンを広くする */
+           }
+        </style>
+    <style>
+        .styleRef { 
+            text-indent: -40px; /* 最初の行の字下げを逆方向に */
+            margin-left: 10px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 40px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+    <style>
+        .styleBullet { 
+            text-indent: -20px; /* 最初の行の字下げを逆方向に */
+            margin-left: 30px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 20px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 0 25%; /* 幅を25%に設定して4列に */
+  box-sizing: border-box;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1><center>クォータニオン(四元数)</center></h1>
+
+<p style="text-align:right">
+～<a href="https://www.ms.u-tokyo.ac.jp/tambara/docs/l4h20180721-3ueda.pdf">複素数を超えて—四元数と八元数</a>～
+</p>
+
+<p>
+複素数があって、四元数があって、八元数があるなら、16元数や32元数があっても良さそうに思えるが、この安直な期待は正しくない。
+</p>
+
+<p>
+　Hamilton は、実数の3つ組(triplet)に積を適当に定義して、複素数を更に拡張できるかという問題に取り組んだ。<strong><span style="color:purple;">10 年とも言われる長い試行錯誤の末、1843 年の10 月16 日に、3つ組ではなく4つ組には、前節で挙げた実数の満たす 7つの法則のうち、1 つを除いて全てを満たす積が定義できる事を発見した。たった1 つ失われる法則は掛け算の交換法則である。</span></strong>
+</p>
+
+<p>
+　Hamilton が四元数を発見してすぐに、Hamilton の大学時代からの友人であったJohn Thomas Graves は、実数の8つ組に対しても、7つの法則から2つを除いた残りを満たす積が定義される事を発見した。これが八元数であり、積の交換法則に加えて積の結合法則が失われる。
+</p>
+
+<center><img src="images/Quaternion.svg"></center>
+
+\[
+\begin{array}{c|l l}
+\text{No.} & \text{法則} & \\
+\hline
+\text{1} & \text{足し算の結合法則} & a+(b+c)=(a+b)+c \\
+\hline
+\text{2} & \text{足し算の交換法則} & a+b=b+a\\
+\hline
+\text{3} & \text{足し算に関する逆元 (あるいは引き算) の存在} & a + (-a) = 0,\quad a-a=0 \\
+\hline
+{\color{purple}\textbf{4}} & {\color{purple}\textbf{掛け算の結合法則}} & a×(b×c)=(a×b)×c \\
+\hline
+{\color{purple}\textbf{5}} & {\color{purple}\textbf{掛け算の交換法則}} & a×b=b×a\\
+\hline
+\text{6} & \text{掛け算に関する逆元 (あるいは割り算) の存在} & a×\frac{1}{a}=1,\quad a÷a=1 \\
+\hline
+\text{7} & \text{足し算と掛け算に関する分配法則} & a×(b+c)=a×b+a×c
+\end{array}
+\]
+
+
+<p>
+　四元数を「信仰」する学派はHamilton の死後も生き残り、「ベクトル派」の学者と激しい論争を繰り広げたという。この論争はベクトル派の勝利に終わり、四元数派は表面的にはほぼ完全に消滅した。
+</p>
+
+<p>
+　しかし、形を変えた四元数派は今も生き残っている。Hamilton は、3元数ではなく四元数が存在することの「理由」の候補として、我々の住む3次元の空間に時間を加えたものが4 次元になることを挙げている。
+</p>
+
+<p>
+　一方、弦の理論家は、我々の住む時空が実は4次元ではなく11次元であることを主張する。余分の7次元は純虚八元数の空間と同一視され、例外型単純Lie 群G2 が自然に作用する。また、E8×E8 混成弦理論と呼ばれる弦理論があり、その名の通り例外型単純Lie 群E8 が中心的な役割を果たすが、ここにも八元数が密かに顔を出していると見ることもできる。これらの事実が数秘術を超えて実体を獲得するかどうかは、時間のみが答えてくれるであろう。
+</p>
+
+</body>
+</html>
