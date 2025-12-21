@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <meta charset="utf-8" />
+        <title>経路積分</title>
+        <style type="text/css">
+            p
+            {
+                padding-left: 2em;
+            }
+           .margin-abstract {
+               margin-left: 60px; /* 左マージンを広くする */
+               margin-right: 60px; /* 右マージンを広くする */
+           }
+        </style>
+    <style>
+        .styleRef { 
+            text-indent: -40px; /* 最初の行の字下げを逆方向に */
+            margin-left: 10px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 40px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+    <style>
+        .styleBullet { 
+            text-indent: -20px; /* 最初の行の字下げを逆方向に */
+            margin-left: 30px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 20px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 0 25%; /* 幅を25%に設定して4列に */
+  box-sizing: border-box;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1><center>経路積分</center></h1>
+
+<a href="#AhaMoment">アハの瞬間へジャンプ</a>
+
+<p style="text-align:right">
+～<a href="https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/">『ノーベル賞受賞記念講演』</a>(Richard Feynman)～
+</p>
+
+<p>
+　･･･この問題に悩んでいたとき、プリンストンのナッソー タバーンでビールパーティーに行きました。ヨーロッパから来たばかりの紳士 (ハーバートイェーレ) がやって来て、私の隣に座りました。ヨーロッパ人はアメリカ人よりもずっと真面目で、知的な事柄を議論するのにビールパーティーは良い場所だと考えているのです。彼は私の隣に座り、<strong><span style="color:purple;">「何をしているの」などと尋ねたので、私は「ビールを飲んでいます」と答えました</span></strong>。それから、彼が私の研究内容を知りたがっていることに気付き、この問題に悩んでいると伝え、彼のほうを向いて「聞いてください。作用から始めて量子力学を論じる方法、つまり作用積分が量子力学に関係する方法を何かご存知ですか？」「いいえ、でも、ディラックは少なくともラグラジアンが量子力学に関係する論文を書いています。明日お見せします」と彼は言いました。
+</p>
+
+<p>
+　次の日、私たちはプリンストン図書館に行きました。図書館の脇には議論するための小さな部屋があり、彼は私にこの論文を見せてくれました。ディラックが言ったのは次のようなものでした。量子力学には、微分方程式とは別に、それと同等の、ある時間から別の時間へ波動関数を運ぶ非常に重要な量があります。それは一種の核で、\(K(x^\prime, x)\) と呼ぶことができます。これは、時間 \(t\) で知られている波動関数 \(\psi(x)\) を、時刻 \(t+ε\) の波動関数 \(\psi(x^\prime)\) に運びます。ディラックは、この関数 \(K\) は、古典力学において、指数関数 \(ie\) にラグランジアン  \(L(x^\prime, x)\) を掛けて計算する量と類似していると指摘しています。
+</p>
+
+<p id="AhaMoment">
+　私は「彼が言っているのは、それらは似ているということです。似ているというのはどういう意味ですか? それが何の役に立つのですか?」と言いました。彼は「これだからアメリカ人は! いつも何にでも使い道を見つけたいんだ!」と言いました。私は、ディラックはそれらが等しいことを言っているに違いないと言いました。彼は「いいえ、彼はそれらが等しいとは言っていません」と説明しました。「<strong><span style="color:purple;">では、それらを等しくしたらどうなるか見てみましょう。</span></strong>」と私は言いました。
+</p>
+
+<p>
+　そこで、ラグランジアンが \(\frac{1}{2}Mx^2-V(x)\) である最も単純な例を取り上げ、単純にそれらを等しくしましたが、すぐに比例定数 \(A\) を適切に調整する必要があることがわかりました。
+\(A e^{iεL/\hbar}\) を \(K\) に代入して
+\[
+\varphi(x^\prime,t+ε)=\int A\exp\left[\frac{iε}{\hbar}L\left(\frac{x^\prime-x}{ε},x\right)\right]\varphi(x,t)dx
+\]
+を求め、テイラー級数展開で計算すると、シュレーディンガー方程式ができました。そこで、私はイェーレ教授の方を向いて、よく理解できずに言いました。「ディラック教授は、比例していると言っていたんですね。」イェーレ教授は目を丸くして、小さなノートを取り出して黒板から急いで書き写しながら言いました。「いやいや、これは重要な発見です。あなたたちアメリカ人は、何かをどのように使用できるか常に探しています。それは物事を発見する良い方法です。」<strong><span style="color:purple">私はディラックの言っていることを理解していると思っていましたが、実際には、ディラックが似ていると考えていたものが本当は等しいという発見をしていたのです</span></strong>。
+</p>
+
+<p style="text-align:right">
+<a href="https://www.manhattanrarebooks.com/pages/books/1157/paul-dirac/the-lagrangian-in-quantum-mechanics?soldItem=true">『ディラックの考えは、ファインマンの想像力を爆発的に解放する役割を果たした…』</a>
+</p>
+
+<p>
+ディラックはソビエト物理学への支持を示すため、ソビエトの新雑誌 Physikalische Zeitschrift der Sowjetunion に論文を投稿することを選んだが、そうすることで論文の配布部数が非常に限られることになった。
+</p>
+
+<p style="text-align:right">
+<a href="https://www.ritsumei.ac.jp/~kra/labo/DiracIshii.pdf">『量子力学におけるラグランジアン』</a>
+</p>
+</body>
+</html>
