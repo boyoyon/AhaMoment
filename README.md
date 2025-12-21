@@ -9,9 +9,6 @@
 Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集めてみる。
         </p>
 
-
-https://boyoyon.github.io/AhaMoment/data/
-
 <h2>あ</h2>
 
 <p>
