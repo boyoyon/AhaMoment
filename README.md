@@ -22,6 +22,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/CupNoodle.html">カップヌードル</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/Quaternion.html">クォータニオン(四元数)</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/PathIntegral.html">経路積分</a><br>
 </p>
 
