@@ -44,6 +44,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 <h2>は</h2>
 
 <p>
+・<a href="https://boyoyon.github.io/AhaMoment/data/BaselProblem.html">バーゼル問題</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/BarbieDoll.html">バービー人形</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Low_of_UniversalGravitation.html">万有引力の法則</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/BooleanAlgebra.html">ブール代数</a><br>
