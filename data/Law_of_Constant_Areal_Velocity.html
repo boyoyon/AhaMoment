@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <meta charset="utf-8" />
+        <title>面積速度一定の法則</title>
+        <style type="text/css">
+            p
+            {
+                padding-left: 2em;
+            }
+           .margin-abstract {
+               margin-left: 60px; /* 左マージンを広くする */
+               margin-right: 60px; /* 右マージンを広くする */
+           }
+        </style>
+    <style>
+        .styleRef { 
+            text-indent: -40px; /* 最初の行の字下げを逆方向に */
+            margin-left: 10px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 40px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+    <style>
+        .styleBullet { 
+            text-indent: -20px; /* 最初の行の字下げを逆方向に */
+            margin-left: 30px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 20px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 0 25%; /* 幅を25%に設定して4列に */
+  box-sizing: border-box;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1><center>面積速度一定の法則</center></h1>
+
+<p style="text-align:right">
+～『数学が解き明かした物理の法則』(大上雅史・和田純夫)～
+</p>
+
+<p>
+16 世紀末、デンマークのチコ・ブラーエは長年にわたって星空を観測し、惑星などの位置を記録していました。 
+</p>
+
+<p>
+その精度は肉眼による観測としては驚異的なものでした。
+</p>
+
+<p>
+物理学の歴史にとって幸運なことに<strong><span style="color:purple;">彼は亡くなる前年</span></strong>の 1600 年、膨大な観測データを整理するため、軌道計算に優れた<strong><span style="color:purple;">ケプラーを弟子として招きました</span></strong>。
+</p>
+
+<p>
+チコは弟子の一人ひとりに惑星を 1 つずづつ担当させました。
+</p>
+
+<p>
+ケプラーが任された火星は当時、「観測を許さない星」と呼ばれていました。 従来の天動説や地動説では、惑星の軌道は円軌道の組み合わせ(地球や太陽を中心とする搬送円、そしてその搬送円上を中心が移動する周転円、さらに周転円を組み合わせるなど) で表していましたが、円軌道からのずれが大きい火星の動きはその方式で予測するのが難しかったからです。
+</p>
+
+<p>
+ケプラーは地動説の立場でした。<strong><span style="color:purple;">2年にわたる膨大な計算ののち、火星の動きを考える前にまず、それまで等速円運動と仮定してきた地球の正確な運動を知る必要に気づき、計算をゼロからやり直すことにしました</span></strong>。 観測される火星の位置は、地球から見た相対的な位置だからです。
+</p>
+
+<p>
+地球の軌道の形はどうすればわかるでしょうか。 火星は 1.88 年で大陽の周りを 1 周して元の場所 M に戻ってきます。その間に地球は大陽の周りを1.88 周します。つまり、始め図の E<sub>1</sub> の位置にあった地球は1.88 年ごとに E<sub>2</sub>, E<sub>3</sub>, …の位置にきますが、そのとき火星はいつも点Mにあります。
+</p>
+
+<center><img src="images/Orbit.svg"></center>
+
+<p>
+地球から見て太陽と火星とがなす角度はチコのデータからわかるので、地球の位置 E<sub>1</sub>, E<sub>2</sub>, E<sub>3</sub> …を三角測量の方法で決めることができます。これらの点から地球の軌道全体を決めるには、少なくとも点E<sub>1</sub>, E<sub>2</sub>, E<sub>3</sub>, …が再びほぼ点 E<sub>1</sub> に戻るのにかかる約 15 年分のデータが要ります。<strong><span style="color:purple;">チコの観測データは幸運にもちょうど 16 年分ありました</span></strong>。
+</p>
+
+<center><img src="images/sun_earth_and_mars.gif"></center>
+
+<p>
+ケプラーはまず、地球の軌道は円ではなく、その速さは大陽の近くでは速く、遠くではゆっくりであることを発見しました。 <strong><span style="color:purple;">面積速度一定の法則は、こうして最初、地球に関して見いだされたのです</span></strong>。
+</p>
+
+<p>
+火星の軌道にさまざまな曲線を当てはめて膨大な 手計算を続けたケプラーは 1605 年春、ついに楕円にたどり着きました。
+</p>
+
+<p>
+楕円軌道の発見によって「完全な円」という常識が崩れてしまった以上、なぜ楕円なのか、という疑問が生じます。当然ケプラー自身もこの問題意識をもち、どの惑星の軌道楕円の焦点も太陽であることから、太陽の引力に関係がありそうだと見抜いていました。
+</p>
+
+<p>
+ケプラーは、惑星の速度を変えるのが力である、とは考えず、速度そのものを力と結びつけて考えていたために、その先まで考察を進めることができませんでした。しかし、「天の運動は神の業ではなく、自然の物体の力の業であり…」、「私の意図は、天の機構はむしろ時計の働きのようなものだと示すことにあります」 と書いた彼の目には、のちにニュートンが描き出す動力学の世界がはっきりと見えていたようです。
+</p>
+
+<h3>関連情報</h3>
+<p>
+・ケプラーの業績は『物理学とは何だろうか(上)』(朝永振一郎)にも詳しく記されている。<br>
+・チコのデータからケプラーの法則、ニュートンの法則をAIモデルで発見できるか試した論文 ･･･ 面積速度一定の法則ではないけれど<br>
+　『From Kepler to Newton: Explainable AI for Science』(2023)　機械翻訳は<a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/2023_From%20Kepler%20to%20Newton/From%20Kepler%20to%20Newton.html">こちら</a>
+</p>
+</body>
+</html>
