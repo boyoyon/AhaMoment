@@ -55,6 +55,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/MusicSynthesizer.html">ミュージック・シンセサイザー</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/Law_of_Constant_Areal_Velocity.html">面積速度一定の法則</a><br>
 </p>
 
 <h2>や</h2>
@@ -65,6 +66,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 
 <h2>ら</h2>
 <p>
+・<a href="https://boyoyon.github.io/AhaMoment/data/Law_of_Falling_Bodies.html">落体の法則</a><br>
 </p>
 
 <h2>わ</h2>
@@ -83,4 +85,5 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 <p>
 </p>
 </body>
+
 </html>
