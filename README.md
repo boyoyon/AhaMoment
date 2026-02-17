@@ -12,6 +12,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 <h2>あ</h2>
 
 <p>
+・<a href="https://boyoyon.github.io/AhaMoment/data/IceCreamCone.html">アイスクリーム・コーン</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/ArchimedesPrinciple.html">アルキメデスの原理</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Yesterday.html">イエスタデイ</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/PrintingPress.html">印刷機</a><br>
@@ -46,6 +47,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/BaselProblem.html">バーゼル問題</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/BarbieDoll.html">バービー人形</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/BubbleJet.html">バブルジェット(サーマル方式インクジェットプリンター)</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Low_of_UniversalGravitation.html">万有引力の法則</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/BooleanAlgebra.html">ブール代数</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/RadioactiveMaterial.html">放射性物質</a><br>
@@ -87,3 +89,4 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 </body>
 
 </html>
+
