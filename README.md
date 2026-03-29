@@ -63,12 +63,14 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/MusicSynthesizer.html">ミュージック・シンセサイザー</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Law_of_Constant_Areal_Velocity.html">面積速度一定の法則</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/MagicTape.html">面ファスナー, マジックテープ</a>
 </p>
 
 <h2>や</h2>
 
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/YasueEquation.html">ヤスエ方程式</a><br>
+   ・<a href="https://boyoyon.github.io/AhaMoment/data/predictive_brain.html">予測脳・予測符号化</a>
 </p>
 
 <h2>ら</h2>
