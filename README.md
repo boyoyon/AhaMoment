@@ -40,6 +40,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 ・<a href="https://boyoyon.github.io/AhaMoment/data/meson.html">中間子</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/MicrowaveOven.html">電子レンジ</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/SingularityTheorem.html">特異点定理</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/toda_lattice.html">戸田格子</a><br>
 </p>
 
 
@@ -76,6 +77,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 <h2>ら</h2>
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Law_of_Falling_Bodies.html">落体の法則</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/QM_and_OptimalControl.html">量子力学と最適制御</a><br>
 </p>
 
 <h2>わ</h2>
@@ -86,6 +88,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Altair.html">Altair</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/BMI.html">BMI</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/GAN.html">GAN</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/LSD25.html">LSD<sub>25</sub></a><br>
 </p>
