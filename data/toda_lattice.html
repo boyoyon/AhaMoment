@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <meta charset="utf-8" />
+        <title>戸田格子</title>
+        <style type="text/css">
+            p
+            {
+                padding-left: 2em;
+            }
+           .margin-abstract {
+               margin-left: 60px; /* 左マージンを広くする */
+               margin-right: 60px; /* 右マージンを広くする */
+           }
+        </style>
+    <style>
+        .styleRef { 
+            text-indent: -40px; /* 最初の行の字下げを逆方向に */
+            margin-left: 10px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 40px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+    <style>
+        .styleBullet { 
+            text-indent: -20px; /* 最初の行の字下げを逆方向に */
+            margin-left: 30px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 20px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 0 25%; /* 幅を25%に設定して4列に */
+  box-sizing: border-box;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1><center>戸田格子</center></h1>
+
+<p>
+日本の物理学者・戸田盛和によって1967年に発見された、非線形でありながら厳密に解くことができる格子模型。<br>
+物理学における「可積分系（積分可能系）」の代表例として知られており、数学や非線形波動の分野に多大な影響を与えた。
+</p>
+
+<h3>『<a href="https://www.jps.or.jp/books/50thkinen/50th_03/004.html">格子ソリトンの発見</a>』戸田盛和</h3>
+
+<p>
+そのとき<strong><span style="color:purple;">ちょうど夏休みで海岸の避暑地にいて手もとには数学辞典など少数の本しかなかったが，幸い巻末の公式集に楕円関数も含まれていたので，これをもとにしてあれこれと楕円関数を独学することになった</span></strong>。その結果，sn関数の2乗に対する加法定理
+
+\[
+sn^2(u+v)-sn^2(u-v)=2\frac{d}{dv}\frac{sn\; u\; cn\; u\; dn\; u\; sn^2\; v}{1-k^2sn^2 u sn^2 v}
+\tag{4}
+\]
+
+を得て，これが(3)に似ていることを直観した。
+
+\[
+\frac{d}{dt}\xi(\dot{s}_n)=s_{n-1}+s_{n+1}-2s_n
+\tag{3}
+\]
+</p>
+
+<h3>『<a href="https://www.jstage.jst.go.jp/article/butsuri/66/9/66_KJ00007476137/_pdf/-char/ja">戸田格子の誕生</a>』和達三樹</h3>
+
+<p>
+戸田先生は 1966 年の夏，千葉房総の保田に避暑に行かれていた。保田滞在が単なる避暑ではなくなった、というのが逸話の顛末である。その時、楕円関数 \(sn(u，k)\) の 2 乗に関する、次の加法定理が 目に留まった。
+
+\[
+\frac{\varepsilon^{\prime\prime}(u)}{(1/sn^2v)-1+\varepsilon^\prime(u)}=\varepsilon(u+v)+\varepsilon(u-v)-2\varepsilon(u)
+\tag{3.7}
+\]
+
+慧眼な読者は，(3.7) と (3.4) とが同じような形をしていることに気がつくであろう。
+
+\[
+\frac{d}{dt}\xi(\dot{s}_n)=s_{n-1}+s_{n+1}-2s_n
+\tag{3.4}
+\]
+</p>
+
+</body>
+</html>
