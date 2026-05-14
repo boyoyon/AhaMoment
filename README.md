@@ -23,6 +23,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/CupNoodle.html">カップヌードル</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/vulcanized_rubber.html">加硫ゴム</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Quaternion.html">クォータニオン(四元数)</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/PathIntegral.html">経路積分</a><br>
 </p>
@@ -38,6 +39,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 </p>
 <h2>た</h2>
 <p>
+・<a href="https://boyoyon.github.io/AhaMoment/data/Dunning-Kruger_Effect.html">ダニング・クルーガー効果</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/meson.html">中間子</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/MicrowaveOven.html">電子レンジ</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/SingularityTheorem.html">特異点定理</a><br>
@@ -47,6 +49,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 
 <h2>な</h2>
 <p>
+・<a href="https://boyoyon.github.io/AhaMoment/data/NeuralNetwork.html">ニューラルネットワーク</a><br>
 </p>
 
 <h2>は</h2>
