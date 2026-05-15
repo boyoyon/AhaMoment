@@ -33,6 +33,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 <h2>さ</h2>
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Principle_of_least_time.html">最小時間の原理</a><br> 
+・<a href="https://boyoyon.github.io/AhaMoment/data/SaranWrap.html">サランラップ</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/coelacanth.html">シーラカンス</a><br> 
 ・<a href="https://boyoyon.github.io/AhaMoment/data/InformationGeometry.html">情報幾何</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Novelist_Haruki.html">小説家・村上春樹</a><br>
