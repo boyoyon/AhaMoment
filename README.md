@@ -98,6 +98,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 ・<a href="https://boyoyon.github.io/AhaMoment/data/BMI.html">BMI</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/GAN.html">GAN</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/LSD25.html">LSD<sub>25</sub></a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/pin_diode.html">pinダイオード</a><br>
 </p>
 
 <h2>0～9</h2>
