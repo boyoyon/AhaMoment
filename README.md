@@ -89,6 +89,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 
 <h2>わ</h2>
 <p>
+・<a href="https://boyoyon.github.io/AhaMoment/data/WakimotoModules.html">脇本加群</a><br>
 </p>
 
 <h2>A～Z</h2>
