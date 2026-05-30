@@ -44,6 +44,7 @@ Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集
 ・<a href="https://boyoyon.github.io/AhaMoment/data/meson.html">中間子</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/MicrowaveOven.html">電子レンジ</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/TelephoneSwitching.html">電話交換器</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/conductive_polymer.html">導電性プラスチック(ポリマー)</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/SingularityTheorem.html">特異点定理</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/toda_lattice.html">戸田格子</a><br>
 </p>
