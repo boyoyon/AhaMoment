@@ -6,7 +6,7 @@
         <h1><center>Ahaの瞬間</center></h1>
         <h2>なにものか？</h2>
         <p>
-Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集めてみる。
+<a href="https://boyoyon.github.io/AhaMoment/index.html">Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集めてみる</a>。
         </p>
 
 <h2>あ</h2>
