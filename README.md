@@ -9,6 +9,9 @@
 <a href="https://boyoyon.github.io/AhaMoment/index.html">Eureka(エウレカ), Aha(アハ), 発見などの瞬間に関する記述を集めてみる</a>。
         </p>
 
+<h2>更新項目</h2>
+・<a href="#vector_sum">ベクトル和</a>
+
 <h2>あ</h2>
 
 <p>
@@ -64,6 +67,7 @@
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Low_of_UniversalGravitation.html">万有引力の法則</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/BooleanAlgebra.html">ブール代数</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/FossaMagna.html">フォッサマグナ</a><br>
+・<span id="vector_sum"><a href="https://boyoyon.github.io/AhaMoment/data/vector_sum.html">ベクトル和</a></span><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/RadioactiveMaterial.html">放射性物質</a><br>
 </p>
 
