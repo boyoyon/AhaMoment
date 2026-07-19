@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <meta charset="utf-8" />
+        <title>蔵本モデル</title>
+        <style type="text/css">
+            p
+            {
+                padding-left: 2em;
+            }
+           .margin-abstract {
+               margin-left: 60px; /* 左マージンを広くする */
+               margin-right: 60px; /* 右マージンを広くする */
+           }
+        </style>
+    <style>
+        .styleRef { 
+            text-indent: -40px; /* 最初の行の字下げを逆方向に */
+            margin-left: 10px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 40px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+    <style>
+        .styleBullet { 
+            text-indent: -20px; /* 最初の行の字下げを逆方向に */
+            margin-left: 30px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 20px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 0 25%; /* 幅を25%に設定して4列に */
+  box-sizing: border-box;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1><center>蔵本モデル</center></h1>
+
+<h3><a href="https://arxiv.org/abs/2602.20505">同期理論の半世紀</a></h3>
+機械翻訳は <a href="https://boyoyon.github.io/HTMLs_translated_to_Japanese/papers/2026_theory%20of%20synchronization/2026_Half_a_century_of_the_theory_of_synchronization.html">こちら</a>
+
+<p>
+・・・
+</p>
+<p>
+The phase oscillator model called the Kuramoto model also has a close connection with CGL. <strong>My proposal of this model was inspired by Arthur Winfree’s seminal paper of 1967 entitled “Biological Rhythms and the Behavior of Populations of Coupled Oscillators” [33].</strong>
+<br><span style="color:blue;">
+クラモトモデルと呼ばれる位相発振器モデルもCGLと密接な関係があります。<strong>このモデルの提案は、アーサー・ウィンフリーの1967年の画期的な論文「生物学的リズムと結合発振器集団の挙動」[33]に触発されたものです。</strong>
+</span>
+</p><p>
+Winfree’s theory gave me a strong impression in the following two ways. The first is that he boldly described a limit-cycle oscillator only with one variable, that is phase, and the pair coupling with two phases. In this way, he successfully created a simple mathematical model for an infinitely large assembly of coupled oscillators. Although it is now commonly known that the phase description of coupled oscillators is applicable whenever the mutual coupling is suficiently weak [9, 34], Winfree was the first to apply the same idea to collective dynamics.
+<br><span style="color:blue;">
+ウィンフリーの理論は、以下の2つの点で私に強い印象を与えました。1つ目は、彼がリミットサイクル発振器を位相という1つの変数のみで大胆に記述し、ペア結合を2つの位相で記述したことです。このようにして、彼は無限に多くの結合発振器の集合体に対するシンプルな数学モデルを構築することに成功しました。結合発振器の位相記述は、相互結合が十分に弱い場合には適用可能であることは現在では広く知られていますが[9, 34]、ウィンフリーは集団ダイナミクスに同じ考え方を初めて適用した人物でした。
+</span>
+</p><p>
+The other point which Winfree’s paper impressed me was that, under the assumption of global coupling, he claimed the existence of a critical condition for the onset of collective oscillation. Unlike macroscopic bodies composed of inactive elements such as atoms and spins, here the components are dynamically active. Having had some experience in the statistical mechanics of the second order phase transition, such a new type of phase transition was a fresh surprise to me. Winfree’s phase transition is also unique in that the randomness comes from the heterogeneity in the natural frequencies of the oscillators and not random noise. Therefore, his model represents a deterministic dynamical system of infinitely high dimension. This point also struck me as quite intriguing.
+<br><span style="color:blue;">
+ウィンフリーの論文で私が感銘を受けたもう一つの点は、グローバルな結合を仮定した上で、集団振動の発生に臨界条件が存在すると主張したことです。原子やスピンといった不活性な要素から構成される巨視的な物体とは異なり、ここでは構成要素が動的に活性です。二次相転移の統計力学についてある程度の知識があった私にとって、このような新しいタイプの相転移は新鮮な驚きでした。ウィンフリーの相転移は、ランダム性がランダムノイズではなく、振動子の固有振動数の不均一性から生じるという点でも独特です。したがって、彼のモデルは無限に高い次元の決定論的な力学系を表しています。この点もまた、私にとって非常に興味深いものでした。
+</span>
+</p><p>
+Unfortunately, however, Winfree’s argument on the existence of a phase transition was not convincing enough. <strong>This moved me to try to modify his model into a mathematically tractable model, preserving the original form as much as possible.</strong> The only modification needed was his coupling term which was given by a product of two functions representing influence and sensitivity. At this very point, my preceding work on CGL helped me greatly. The idea which came up with was that if a spatially discretized version of CGL is considered, then the phase reduction of the discretized diffusive coupling would become a simple trigonometric function depending only on the phase difference. Even a cosine component does not appear with vanishing imaginary part of somecoeficients of the discretized CGL. Furthermore, it was assumed that the system size is infinitely large, and that the distribution of the natural frequencies is given by a unimodal symmetric function. <strong>The model obtained in this way eventually came to be called the Kuramoto model [35].</strong>
+
+<br><span style="color:blue;">
+しかし残念ながら、Winfreeの相転移の存在に関する議論は十分説得力のあるものではありませんでした。<strong>そこで私は、彼のモデルを可能な限り元の形式を維持しつつ、数学的に扱いやすいモデルに修正しようと試みました。</strong>必要な修正は、影響と感度を表す2つの関数の積で与えられる彼の結合項だけでした。</strong>まさにこの点で、CGLに関する私の以前の研究が非常に役立ちました。思いついたアイデアは、CGLの空間的に離散化されたバージョンを考慮すると、離散化された拡散結合の位相縮小は、位相差のみに依存する単純な三角関数になるというものでした。離散化されたCGLのいくつかの係数の虚部がゼロになる場合、コサイン成分さえ現れません。さらに、システムのサイズは無限大であり、固有振動数の分布は単峰性の対称関数で与えられると仮定しました。<strong>このようにして得られたモデルは、最終的に蔵本モデル[35]と呼ばれるようになりました。</strong>
+</span>
+</p><p>
+Thanks to the global coupling and sinusoidal coupling function, this model was handled analytically by applying the elementary idea of the mean field theory similar to that of thermodynamics phase transitions. Actually, this was achieved by introducing a complex order parameter whose amplitude gives a measure of the strength of macroscopic oscillation. Although some nontrivial problems peculiar to the ensemble of heterogeneous dynamical elements were faced with, they were cleared by imposing a certain hypothesis, and a self-consistency equation for the order parameter was obtained. Its solution clearly showed the existence of a critical coupling strength above which a solution of collective oscillation bifurcated from a constant non-oscillatory solution. It seemed quite natural to expect that across the critical point an exchange of stability occurs between these solutions. Yet I could not find any mathematical evidence to support this seemingly obvious fact. In fact, this stability problem was to become one major issue in later years as will be touch upon in a later paragraph.
+<br><span style="color:blue;">
+グローバル結合と正弦波結合関数のおかげで、このモデルは熱力学の相転移と同様の平均場理論の基本概念を適用することで解析的に扱うことができました。実際には、これは巨視的振動の強さを表す振幅を持つ複素秩序パラメータを導入することによって実現されました。異質な動的要素の集合に特有のいくつかの非自明な問題に直面しましたが、ある仮説を課すことでそれらは解決され、秩序パラメータの自己無撞着方程式が得られました。その解は、集団振動の解が一定の非振動解から分岐する臨界結合強度の存在を明確に示しました。臨界点を境にこれらの解の間で安定性の交換が起こると予想するのはごく自然なことのように思えました。しかし、この一見明白な事実を裏付ける数学的な証拠は見つかりませんでした。実際、この安定性の問題は、後の段落で触れるように、後年の主要な課題の一つとなりました。
+</span>
+</p><p>
+In any case, finishing this work brought me some sense of satisfaction, but nothing more. Thus, what I did was only to present a short talk on this model at a certain international symposium held in Kyoto, and submit a short article for the Proceedings [3]. Naturally, this article remained unnoticed for the subsequent several years. Probably, the first person who discovered it with great enthusiasm was none other than Winfree himself. It seems that he came across my article in his effort of searching for all relevant literatures for his book in progress entitled “The Geometry of Biological Time” [36] which was published in 1980. Encouraged by this, four years later, some details of my model were included in my own book “Chemical Oscillations, Waves, and Turbulence” [9].
+<br><span style="color:blue;">
+いずれにせよ、この研究を終えたことで多少の満足感は得られましたが、それ以上のことは何もありませんでした。そこで、京都で開催されたある国際シンポジウムでこのモデルについて短い講演を行い、議事録に短い記事を投稿しただけでした[3]。当然のことながら、この記事はその後数年間誰にも注目されませんでした。おそらく、最初にこの論文を熱心に発見したのは、他ならぬウィンフリー本人だったでしょう。彼は、執筆中の著書「生物学的時間の幾何学」[36]（1980年出版）に関連する文献をすべて探していた際に、私の論文に出会ったようです。これに励まされ、4年後、私のモデルの詳細の一部を私自身の著書「化学的振動、波動、乱流」[9]に含めました。
+</span>
+</p><p>
+We now come back to the stability problem of the collective states [37]. Indeed, their stability was not obvious at all. This is because unlike thermodynamic phase transition, our transition has no potential or Lyapunov function like free energy. The conventional bifurcation theory of dynamical systems is also inapplicable. To put the nontrivial nature of the problem shortly, when we try to examine the stability of the incoherent branch of the solution using a standard method, we are faced with a peculiar spectrum such that the spectrum is distributed continuously on the imaginary axis. Formally this implies neutral stability of the incoherent state. However, this seemed contradictory to the asymptotic stability of the corresponding macroscopic state confirmed by numerical simulation. This theoretical dilemma aroused considerable mathematical curiosity. The clue to the solution was to correctly formulate the phase mixing mechanism analogous to the Landau damping of collisionless plasmas [38]. Thanks to the efforts of a number of theorists including Strogatz, Mirollo and Crawford, this issue, including the post-critical dynamics, was basically settled by the end of the last century [37, 39]. Still, <strong>it took another 15 years or more until a fully satisfactory mathematical solution was finally given by Hayato Chiba [40].</strong>
+<br><span style="color:blue;">
+ここで、集団状態の安定性の問題に戻ります[37]。実際、その安定性は全く自明ではありませんでした。これは、熱力学的相転移とは異なり、我々の遷移には自由エネルギーのようなポテンシャルやリアプノフ関数がないためです。力学系の従来の分岐理論も適用できません。この問題の非自明性を簡潔に述べると、標準的な方法を使用して解の非コヒーレント分岐の安定性を調べようとすると、スペクトルが虚軸上に連続的に分布するような特異なスペクトルに直面します。形式的には、これは非コヒーレント状態のニュートラル安定性を意味します。しかし、これは数値シミュレーションによって確認された対応する巨視的状態の漸近安定性と矛盾しているように見えました。この理論的なジレンマは、かなりの数学的好奇心を掻き立てました。解決の手がかりは、衝突のないプラズマのランダウ減衰に類似した位相混合メカニズムを正しく定式化することでした[38]。ストロガッツ、ミロロ、クロフォードなど多くの理論家の努力のおかげで、ポストクリティカルダイナミクスを含むこの問題は、前世紀末までに基本的に解決された[37, 39]。しかし、<strong>最終的に千葉逸人によって完全に満足のいく数学的解決策が与えられるまでには、さらに15年以上かかった[40]。</strong>
+</span>
+</p>
+<p>
+・・・
+</p>
+
+</body>
+</html>
