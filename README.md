@@ -10,7 +10,8 @@
         </p>
 
 <h2>更新項目</h2>
-・<a href="#vector_sum">ベクトル和</a>
+・<a href="https://boyoyon.github.io/AhaMoment/data/kuramoto_model.html">蔵本モデル</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/yoneda_lemma.html">米田の補題</a>
 
 <h2>あ</h2>
 
@@ -29,6 +30,7 @@
 ・<a href="https://boyoyon.github.io/AhaMoment/data/vulcanized_rubber.html">加硫ゴム</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Quaternion.html">クォータニオン(四元数)</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/PathIntegral.html">経路積分</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/kuramoto_model.html">蔵本モデル</a><br>
 </p>
 
 </p>
@@ -83,7 +85,8 @@
 
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/YasueEquation.html">ヤスエ方程式</a><br>
-   ・<a href="https://boyoyon.github.io/AhaMoment/data/predictive_brain.html">予測脳・予測符号化</a>
+   ・<a href="https://boyoyon.github.io/AhaMoment/data/predictive_brain.html">予測脳・予測符号化</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/yoneda_lemma.html">米田の補題</a>
 </p>
 
 <h2>ら</h2>
