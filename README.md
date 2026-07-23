@@ -10,7 +10,7 @@
         </p>
 
 <h2>更新項目</h2>
-・<a href="https://boyoyon.github.io/AhaMoment/data/2006_Otto_Loewi’s_Great_Dreams.html">神経伝達物質(アセチルコリン)</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/2006_Otto_Loewis_Great_Dreams.html">神経伝達物質(アセチルコリン)</a><br>
 
 <h2>あ</h2>
 
@@ -41,7 +41,7 @@
 ・<a href="https://boyoyon.github.io/AhaMoment/data/coelacanth.html">シーラカンス</a><br> 
 ・<a href="https://boyoyon.github.io/AhaMoment/data/InformationGeometry.html">情報幾何</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Novelist_Haruki.html">小説家・村上春樹</a><br>
-・<a href="https://boyoyon.github.io/AhaMoment/data/2006_Otto_Loewi’s_Great_Dreams.html">神経伝達物質(アセチルコリン)</a>
+・<a href="https://boyoyon.github.io/AhaMoment/data/2006_Otto_Loewis_Great_Dreams.html">神経伝達物質(アセチルコリン)</a>
 </p>
 
 <h2>た</h2>
