@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <meta charset="utf-8" />
+        <title>リベットの定理</title>
+        <style type="text/css">
+            p
+            {
+                padding-left: 2em;
+            }
+           .margin-abstract {
+               margin-left: 60px; /* 左マージンを広くする */
+               margin-right: 60px; /* 右マージンを広くする */
+           }
+        </style>
+    <style>
+        .styleRef { 
+            text-indent: -40px; /* 最初の行の字下げを逆方向に */
+            margin-left: 10px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 40px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+    <style>
+        .styleBullet { 
+            text-indent: -20px; /* 最初の行の字下げを逆方向に */
+            margin-left: 30px; /* 2行目以降の字下げを調整 */
+            ul {
+                  list-style-type: none; /* 箇条書き記号を非表示 */
+                  padding-left: 40px; /* 全体の左余白 */
+            }
+            li {
+            }
+        }
+    </style>
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 0.50%; /* 幅を50%に設定して2列に */
+  box-sizing: border-box;
+  padding: 10px;
+}
+</style>
+
+    </head>
+    <body>
+        <h1><center>リベットの定理</center></h1>
+
+(経緯)<br>
+<strong>フライの仮説</strong>：1984年、ゲルハルト・フライは「フェルマーの方程式に反例（整数解）があると仮定して作った楕円曲線（フライ曲線）は、異常すぎてモジュラー形式にはなり得ないのではないか」という仮説を立てた。
+<br><br>
+<strong>イプシロン予想（\(\varepsilon \)予想）</strong>：1985年、ジャン＝ピエール・セールがフライのアイデアを数学的に厳密な形へと定式化し、「イプシロン予想」と名付けた。
+<br><br>
+<strong>リベットの定理</strong>：1986年、ケン・リベットがこのイプシロン予想を完全に証明したことで、フライ曲線が非モジュラーであることが確定した。これにより、この証明は「リベットの定理」と呼ばれるようになった。
+
+<h3><a href="https://ia601601.us.archive.org/19/items/fermats-last-theorem-a-collection/Fermat%27s%20Last%20Theorem%20%28%20PDFDrive%20%29.pdf">『フェルマーの最終定理』</a> Simon Singh</h3>
+<p>
+One of those toiling to prove and complete the connection between the
+Taniyama–Shimura conjecture and Fermat’s Last Theorem was Ken Ribet, a
+professor at the University of California at Berkeley. Since the lecture at
+Oberwolfach, Ribet had become obsessed with trying to prove that Frey’s elliptic
+equation was too weird to be modular. After eighteen months of effort he, along
+with everybody else, was getting nowhere. Then, in the summer of 1986, Ribet’s
+colleague Professor Barry Mazur was visiting Berkeley to attend the
+International Congress of Mathematicians. The two friends met up for a
+cappuccino at the Café Strada and began sharing bad luck stories and grumbling
+about the state of mathematics.
+
+<br><span style="color:blue;">
+谷山・志村予想とフェルマーの最終定理の関連性を証明し、その理論を完成させようと尽力していた数学者の一人に、カリフォルニア大学バークレー校の教授、ケン・リベットがいました。オーベルヴォルファッハでの講演以来、リベットは、フライの楕円方程式があまりにも特異な性質を持っているため「モジュラー」にはなり得ないことを証明しようと、その課題に没頭していました。しかし、18ヶ月に及ぶ努力にもかかわらず、彼もまた他の数学者たちと同様、何の進展も得られずにいました。そんな1986年の夏、リベットの同僚であるバリー・メイザー教授が、国際数学者会議に出席するためにバークレーを訪れました。二人の友人は「カフェ・ストラーダ」でカプチーノを飲みながら、互いの不運な状況を語り合い、数学界の現状について不満をこぼし合いました。
+</span>
+</p>
+
+
+<p>
+Eventually they started discussing the latest news on the various attempts to
+prove the weirdness of Frey’s elliptic equation, and Ribet began explaining a
+tentative strategy which he had been exploring. The approach seemed vaguely
+promising but he could only prove a very minor part of it. ‘I sat down with Barry
+and told him what I was working on. I mentioned that I’d proved a very special
+case, but I didn’t know what to do next to generalise it to get the full strength of
+the proof.’
+
+<br><span style="color:blue;">
+やがて彼らは、フライの楕円方程式の奇妙な性質を証明しようとする様々な試みに関する最新の話題について話し合い始め、リベットは自身が検討していた暫定的な戦略を説明し始めた。そのアプローチには漠然とながらも有望な兆しが見えたものの、彼が証明できたのはごく一部に過ぎなかった。「バリーと話し合いの場を持ち、私が取り組んでいた内容を伝えました。ある特殊なケースについては証明できたものの、それを一般化して完全な証明へと導くために次に何をすべきか、その手がかりがつかめずにいたのです。」
+</span>
+</p>
+
+
+<p>
+Professor Mazur sipped his cappuccino and listened to Ribet’s idea. <strong>Then he
+stopped and stared at Ken in disbelief. ‘But don’t you see? You’ve already done
+it!</strong> All you have to do is add some gamma-zero of (M) structure and just run
+through your argument and it works. It gives you everything you need.’
+<br><span style="color:blue;">
+マズール教授はカプチーノをすすりながら、リベットの考えに耳を傾けていた。<strong>やがて彼は動きを止め、信じられないといった様子でケンを見つめた。「だが、わからないのか？ 君はもうそれを成し遂げているんだよ！</strong> あとは（M）の\(\Gamma_0\) 構造を付け加えて、議論をひと通り進めるだけでいい。そうすればうまくいく。必要なものはすべて、そこから得られるはずだ」
+</span>
+</p>
+
+<p>
+Ribet looked at Mazur, looked at his cappuccino, and looked back at Mazur. <strong>It
+was the most important moment of Ribet’s career</strong> and he recalls it in loving
+detail. ‘I said <strong>you’re absolutely right – of course – how did I not see this? </strong>I was
+completely astonished because it had never occurred to me to add the extra
+gamma-zero of (M) structure, simple as it sounds.’
+<br><span style="color:blue;">
+リベットはマズールに目をやり、自分のカプチーノに目をやり、そして再びマズールに目を戻した。<strong>それはリベットのキャリアにおいて最も重要な瞬間であり</strong>、彼はその時のことを、愛着を込めて詳細に回想している。「私は言いました。『<strong>その通りだ。なぜこれに気づかなかったんだろう？</strong>』私は完全に驚かされました。(M)構造にあの余分なガンマ・ゼロ（gamma-zero）を加えるという発想は、言葉にすれば単純なことですが、それまで全く思いつきもしなかったからです。」
+</span>
+</p>
+
+<p>
+It should be noted that, although adding gamma-zero of (M) structure sounds
+simple to Ken Ribet, it is an esoteric step of logic which only a handful of the
+world’s mathematicians could have concocted over a casual cappuccino.
+
+<br><span style="color:blue;">
+特筆すべきは、(M)構造にガンマ・ゼロ（\(\Gamma_0\)）を加えるということが、ケン・リベットにとっては単純なことに聞こえるかもしれないが、実際には、世界でもほんの一握りの数学者だけが、何気なくカプチーノを飲みながら思いつき得るような、極めて高度で難解な論理的ステップであったという点である。
+</span>
+</p>
+
+<p>
+‘It was the crucial ingredient that I had been missing and it had been staring
+me in the face. I wandered back to my apartment on a cloud, thinking: My God
+is this really correct? I was completely enthralled and I sat down and started scribbling on a pad of paper. After an hour or two I’d written everything out and
+verified that I knew the key steps and that it all fitted together. I ran through my
+argument and I said, yes, this absolutely has to work. And there were of course
+thousands of mathematicians at the International Congress and I sort of casually
+mentioned to a few people that I’d proved that the Taniyama–Shimura conjecture
+implies Fermat’s Last Theorem. It spread like wildfire and soon large groups of
+people knew; they were running up to me asking, Is it really true you’ve proved
+that Frey’s elliptic equation is not modular? And I had to think for a minute and
+all of a sudden I said, Yes, I have.’
+<br><span style="color:blue;">
+「それこそが、私に欠けていた決定的な要素であり、しかもそれはずっと目の前にあったのです。私は有頂天の気分でアパートへ戻りながら、こう思いました。『なんてことだ、これは本当に正しいのか？』。すっかり夢中になった私は、腰を下ろして紙に書き留め始めました。1、2時間後にはすべてを書き出し、重要な手順を把握していること、そして全体が整合していることを確認しました。自分の論証を再検討し、『そうだ、これなら間違いなくうまくいく』と確信しました。もちろん、国際会議には何千人もの数学者が集まっていましたが、私は何人かに何気なく、谷山・志村予想がフェルマーの最終定理を導くことを証明したと話しました。その話はまたたく間に広まり、すぐに多くの人々に知れ渡りました。人々は私のもとへ駆け寄り、『フライの楕円方程式がモジュラー形式ではないことを証明したというのは本当ですか？』と尋ねてくるのです。私は一瞬考え込みましたが、やがてこう答えました。『ええ、証明しました』と。」
+</span>
+</p>
+
+<p>
+Fermat’s Last Theorem was now inextricably linked to the Taniyama–Shimura
+conjecture. If somebody could prove that every elliptic equation is modular, then
+this would imply that Fermat’s equation had no solutions, and immediately prove
+Fermat’s Last Theorem.
+
+<br><span style="color:blue;">
+フェルマーの最終定理は、今や谷山・志村予想と密接に結びついていた。もし、あらゆる楕円方程式がモジュラー（保型）であることを証明できれば、それはフェルマーの方程式には解が存在しないことを意味し、ひいてはフェルマーの最終定理を直ちに証明することになるからである。
+</span>
+</p>
+    </body>
+</html>
