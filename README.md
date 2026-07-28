@@ -11,7 +11,7 @@
 
 <h2>更新項目</h2>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/fermats_last_theorem.html">フェルマーの最終定理</a><br>
-
+・<a href="https://boyoyon.github.io/AhaMoment/data/ribets_theorem.html">リベットの定理</a><br>
 <h2>あ</h2>
 
 <p>
@@ -94,6 +94,7 @@
 <h2>ら</h2>
 <p>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Law_of_Falling_Bodies.html">落体の法則</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/ribets_theorem.html">リベットの定理</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/QM_and_OptimalControl.html">量子力学と最適制御</a><br>
 </p>
 
