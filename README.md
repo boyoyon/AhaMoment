@@ -10,7 +10,7 @@
         </p>
 
 <h2>更新項目</h2>
-・<a href="https://boyoyon.github.io/AhaMoment/data/2006_Otto_Loewis_Great_Dreams.html">神経伝達物質(アセチルコリン)</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/fermats_last_theorem.html">フェルマーの最終定理</a><br>
 
 <h2>あ</h2>
 
@@ -69,6 +69,7 @@
 ・<a href="https://boyoyon.github.io/AhaMoment/data/BubbleJet.html">バブルジェット(サーマル方式インクジェットプリンター)</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Low_of_UniversalGravitation.html">万有引力の法則</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/BooleanAlgebra.html">ブール代数</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/fermats_last_theorem.html">フェルマーの最終定理</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/FossaMagna.html">フォッサマグナ</a><br>
 ・<span id="vector_sum"><a href="https://boyoyon.github.io/AhaMoment/data/vector_sum.html">ベクトル和</a></span><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/RadioactiveMaterial.html">放射性物質</a><br>
