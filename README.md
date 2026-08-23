@@ -10,8 +10,13 @@
         </p>
 
 <h2>更新項目</h2>
+・<a href="https://boyoyon.github.io/AhaMoment/data/theory_of_relativity.html">
+相対性理論</a><br>
+
+---<br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/fermats_last_theorem.html">フェルマーの最終定理</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/ribets_theorem.html">リベットの定理</a><br>
+<br>
 <h2>あ</h2>
 
 <p>
@@ -41,8 +46,11 @@
 ・<a href="https://boyoyon.github.io/AhaMoment/data/coelacanth.html">シーラカンス</a><br> 
 ・<a href="https://boyoyon.github.io/AhaMoment/data/InformationGeometry.html">情報幾何</a><br>
 ・<a href="https://boyoyon.github.io/AhaMoment/data/Novelist_Haruki.html">小説家・村上春樹</a><br>
-・<a href="https://boyoyon.github.io/AhaMoment/data/2006_Otto_Loewis_Great_Dreams.html">神経伝達物質(アセチルコリン)</a>
+・<a href="https://boyoyon.github.io/AhaMoment/data/2006_Otto_Loewis_Great_Dreams.html">神経伝達物質(アセチルコリン)</a><br>
+・<a href="https://boyoyon.github.io/AhaMoment/data/theory_of_relativity.html">
+相対性理論</a>
 </p>
+
 
 <h2>た</h2>
 <p>
